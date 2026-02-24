@@ -15,7 +15,7 @@ export default function Navbar() {
         lg:max-w-3/4
         rounded-2xl
         px-6 lg:px-8 py-4
-        bg-white/80 backdrop-blur-sm
+        glassmorphism
         border border-gray-200/50
         drop-shadow-md
       "
