@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-
-const inter = Inter({
-  variable: "--font-inter",
+const geist = Geist_Mono({
   subsets: ["latin"],
+  variable: "--font-geist",
+  weight: ["400", "500", "600", "700"],
 })
 
 export const metadata: Metadata = {
@@ -19,9 +19,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${geist.className} scroll-smooth!`}>
       <body
-        className={`${inter.variable} antialiased`}
+        className={`antialiased bg-gray-100`}
       >
         {children}
       </body>
