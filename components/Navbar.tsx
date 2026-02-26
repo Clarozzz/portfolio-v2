@@ -15,7 +15,7 @@ export default function Navbar() {
         lg:max-w-3/4
         rounded-2xl
         px-6 lg:px-8 py-4
-        glassmorphism
+        bg-white/95
         border border-gray-200/50
         drop-shadow-md
       "
@@ -68,8 +68,9 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
-              href="#"
+              href="https://drive.google.com/file/d/1GNb3j72JEN-HCwn_SDF9ODGW6Dg-dNEY/view?usp=sharing"
               onClick={() => setIsOpen(false)}
+              target="_blank"
               className="hover:text-purple-600 transition-colors duration-300"
             >
               Resume

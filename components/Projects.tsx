@@ -38,7 +38,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div id="projects" className="px-4 pt-28 pb-8">
+    <div id="projects" className="p-4 mt-28 animate-fadeIn">
       <h2 className="mb-6 font-bold text-5xl">
         Projects
       </h2>
