@@ -5,8 +5,10 @@ export default function TechBadge({ name, children }: { name?: string, children?
       border
       border-gray-400/50
       rounded-full
-      px-3
+      px-2
       py-1
+      text-xs
+      2xl:text-base
     ">
       {name}
       {children}

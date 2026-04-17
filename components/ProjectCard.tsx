@@ -41,7 +41,7 @@ export default function ProjectCard({ project }: { project: Project }) {
             src={project.image}
             alt={project.title}
             fill
-            className="object-cover transition-transform duration-300 hover:scale-102 cursor-pointer"
+            className="object-cover"
             sizes="(max-width: 768px) 100vw, 400px"
           />
         </div>

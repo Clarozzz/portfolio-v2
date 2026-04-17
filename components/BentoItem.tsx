@@ -7,7 +7,7 @@ export default function BentoItem({
   className?: string
 }) {
   return (
-    <div className={`rounded-3xl px-6 py-8 drop-shadow-md ${className}`}>
+    <div className={`rounded-3xl px-6 py-6 drop-shadow-md ${className}`}>
       {children}
     </div>
   )
