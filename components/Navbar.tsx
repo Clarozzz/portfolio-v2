@@ -68,7 +68,7 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1GNb3j72JEN-HCwn_SDF9ODGW6Dg-dNEY/view?usp=sharing"
+              href="https://drive.google.com/file/d/1sCVHIkt8S9YzQYFKIFw7dJ6_CgAB1-xI/view?usp=sharing"
               onClick={() => setIsOpen(false)}
               target="_blank"
               className="hover:text-purple-600 transition-colors duration-300"
