@@ -1,12 +1,11 @@
 import { Briefcase, Code, Cpu, Shield, Zap } from "lucide-react";
-import TechBadge from "./TechBadge";
 import OportunityBadge from "./OportunityBadge";
 
 export default function FinalSection() {
   return (
     <div className="animate-fadeIn p-4 mb-12 mt-10 rounded-3xl drop-shadow-md">
 
-      <div className="bg-linear-to-br from-white to-slate-100 p-10 border border-slate-200/60 rounded-3xl space-y-10">
+      <div className="bg-linear-to-br from-white to-slate-100 p-6 md:p-10 border border-slate-200/60 rounded-3xl space-y-10">
 
         <div className="space-y-4">
           <h2 className="text-4xl max-w-sm md:text-5xl font-bold bg-linear-to-r from-purple-600 to-blue-800 bg-clip-text text-transparent">
@@ -19,7 +18,7 @@ export default function FinalSection() {
 
         <div className="grid md:grid-cols-2 gap-6">
 
-          <div className="">
+          <div>
             <h3 className="flex items-center gap-3 text-xl font-bold mb-2">
               <Code className="text-blue-600" size={30} />
               Engineering principles
@@ -55,9 +54,9 @@ export default function FinalSection() {
                 <OportunityBadge name="Startups" />
               </div>
             </div>
-            <div className="mb-3">
+            <div className="mt-6 mb-3">
               <a href="mailto:cesar.claros49@gmail.com" className="flex justify-center w-full px-6 py-3 font-bold text-white bg-linear-to-br from-blue-600 to-purple-600 rounded-xl shadow-lg">
-                ¿Hablamos de tu próximo proyecto?
+                Get in touch!
               </a>
             </div>
           </div>
