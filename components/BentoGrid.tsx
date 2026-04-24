@@ -51,7 +51,7 @@ export default function BentoGrid() {
       <BentoItem className={`col-span-1 md:col-span-1 xl:col-span-4 xl:row-span-6 rounded-3xl p-8 ${cardColor} ${cardBorder}`}>
         <p className="text-purple-600 font-medium"> Tech Stack </p>
         <hr className="my-3 text-slate-300/80" />
-        <div className="space-y-2 2xl:space-y-8">
+        <div className="space-y-2 2xl:space-y-4">
           <div>
             <h3 className="font-semibold text-sm 2xl:text-base mb-2">Frontend</h3>
             <div className="flex flex-wrap gap-2">
