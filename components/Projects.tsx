@@ -1,6 +1,12 @@
 import ProjectCard from "./ProjectCard";
 
 const projects = [
+    {
+    title: "Kanban",
+    description: "A collaborative project management application based on the Kanban methodology. Built with Next.js, SpringBoot and PostgreSQL",
+    image: "/kanban.png",
+    githubUrl: "https://github.com/Clarozzz/kanban_board"
+  },
   {
     title: "Junker",
     description: "Auto parts marketplace, developed collaboratively as a team project. Built with Next.js, FastAPI, Cloudinary, Stripe and Supabase.",
