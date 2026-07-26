@@ -40,7 +40,7 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1tWFzVCeG7GJmkTohwukmhyvenmMmYa_5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1oxK0y8hbLOEI4IGCak5vIDi4xfApLbOi/view?usp=sharing"
               target="_blank"
               className="hover:text-purple-600 transition-colors duration-300"
             >
@@ -68,7 +68,7 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1tWFzVCeG7GJmkTohwukmhyvenmMmYa_5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1oxK0y8hbLOEI4IGCak5vIDi4xfApLbOi/view?usp=sharing"
               onClick={() => setIsOpen(false)}
               target="_blank"
               className="hover:text-purple-600 transition-colors duration-300"
