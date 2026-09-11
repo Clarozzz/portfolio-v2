@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaAws, FaDigitalOcean, FaDocker, FaGitAlt, FaLinux, FaNodeJs } from "react-icons/fa";
 import { RiAngularjsFill, RiNextjsFill, RiReactjsFill, RiSvelteFill } from "react-icons/ri";
-import { SiKubernetes, SiSpringboot } from "react-icons/si";
+import { SiGooglecloud, SiKubernetes, SiSpringboot } from "react-icons/si";
 import { PiFileSql } from "react-icons/pi";
 import TechBadge from "./TechBadge";
 
@@ -83,6 +83,7 @@ export default function BentoGrid() {
             <div className="flex flex-wrap gap-2">
               <TechBadge name="AWS"><FaAws /></TechBadge>
               <TechBadge name="DigitalOcean"><FaDigitalOcean /></TechBadge>
+              <TechBadge name="Google Cloud"><SiGooglecloud /></TechBadge>
             </div>
           </div>
         </div>
